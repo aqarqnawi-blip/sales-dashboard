@@ -250,20 +250,17 @@ tbody tr:hover { background: #fafbfc; }
   .heatmap .cell, .pill, .brand-tag { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
 }
 </style>
-</head>
-<body>
   <script>
-    const password = "1234";
+  const password = "1234";
 
   let userInput = prompt("Enter password:");
 
   if (userInput !== password) {
-
-    document.body.innerHTML = "<h2 style='text-align:center;margin-top:20%;font-family:sans-serif;'>Access Denied</h2>";
-
+    document.write("<h2 style='text-align:center;margin-top:20%;font-family:sans-serif;'>Access Denied</h2>");
   }
-
 </script>
+</head>
+<body>
 <div class="container">
 
 <div class="header">
